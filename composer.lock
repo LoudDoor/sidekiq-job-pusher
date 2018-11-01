@@ -1,26 +1,30 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
     ],
-    "hash": "3d281d84a241d5f34dce95c5a3751284",
+    "content-hash": "9fe0aba2ab55f141d4357cd692f9b7b8",
     "packages": [
         {
             "name": "predis/predis",
-            "version": "0.8.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "d6fa4a32920e340159ecbc9a5cabaa0e192df021"
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/d6fa4a32920e340159ecbc9a5cabaa0e192df021",
-                "reference": "d6fa4a32920e340159ecbc9a5cabaa0e192df021",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
             },
             "suggest": {
                 "ext-curl": "Allows access to Webdis when paired with phpiredis",
@@ -28,8 +32,8 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Predis": "lib/"
+                "psr-4": {
+                    "Predis\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -43,14 +47,14 @@
                     "homepage": "http://clorophilla.net"
                 }
             ],
-            "description": "Flexible and feature-complete PHP client library for Redis",
+            "description": "Flexible and feature-complete Redis client for PHP and HHVM",
             "homepage": "http://github.com/nrk/predis",
             "keywords": [
                 "nosql",
                 "predis",
                 "redis"
             ],
-            "time": "2013-03-30 15:16:13"
+            "time": "2016-06-16T16:22:20+00:00"
         }
     ],
     "packages-dev": [
@@ -60,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "1.2.9"
+                "reference": "3888fcba646930da78c8ff4dd3555f4da4caa0e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/1.2.9",
-                "reference": "1.2.9",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/3888fcba646930da78c8ff4dd3555f4da4caa0e2",
+                "reference": "3888fcba646930da78c8ff4dd3555f4da4caa0e2",
                 "shasum": ""
             },
             "require": {
@@ -105,20 +109,20 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2013-02-26 18:55:56"
+            "time": "2013-02-26T18:55:56+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
             "version": "1.3.3",
             "source": {
                 "type": "git",
-                "url": "git://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "1.3.3"
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "16a78140ed2fc01b945cfa539665fadc6a038029"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sebastianbergmann/php-file-iterator/zipball/1.3.3",
-                "reference": "1.3.3",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/16a78140ed2fc01b945cfa539665fadc6a038029",
+                "reference": "16a78140ed2fc01b945cfa539665fadc6a038029",
                 "shasum": ""
             },
             "require": {
@@ -150,20 +154,20 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2012-10-11 04:44:38"
+            "time": "2012-10-11T11:44:38+00:00"
         },
         {
             "name": "phpunit/php-text-template",
             "version": "1.1.4",
             "source": {
                 "type": "git",
-                "url": "git://github.com/sebastianbergmann/php-text-template.git",
-                "reference": "1.1.4"
+                "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                "reference": "5180896f51c5b3648ac946b05f9ec02be78a0b23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sebastianbergmann/php-text-template/zipball/1.1.4",
-                "reference": "1.1.4",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/5180896f51c5b3648ac946b05f9ec02be78a0b23",
+                "reference": "5180896f51c5b3648ac946b05f9ec02be78a0b23",
                 "shasum": ""
             },
             "require": {
@@ -194,20 +198,20 @@
             "keywords": [
                 "template"
             ],
-            "time": "2012-10-31 11:15:28"
+            "time": "2012-10-31T18:15:28+00:00"
         },
         {
             "name": "phpunit/php-timer",
             "version": "1.0.4",
             "source": {
                 "type": "git",
-                "url": "git://github.com/sebastianbergmann/php-timer.git",
-                "reference": "1.0.4"
+                "url": "https://github.com/sebastianbergmann/php-timer.git",
+                "reference": "19fa03d75db7eb732db5256fe7f08a66116ace90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sebastianbergmann/php-timer/zipball/1.0.4",
-                "reference": "1.0.4",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/19fa03d75db7eb732db5256fe7f08a66116ace90",
+                "reference": "19fa03d75db7eb732db5256fe7f08a66116ace90",
                 "shasum": ""
             },
             "require": {
@@ -238,20 +242,20 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2012-10-11 04:45:58"
+            "time": "2012-10-11T11:45:58+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
             "version": "1.1.5",
             "source": {
                 "type": "git",
-                "url": "git://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "1.1.5"
+                "url": "https://github.com/sebastianbergmann/php-token-stream.git",
+                "reference": "ffb5e70adbc7cb1d4091ac0f8335b6fcff52cd75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sebastianbergmann/php-token-stream/zipball/1.1.5",
-                "reference": "1.1.5",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ffb5e70adbc7cb1d4091ac0f8335b6fcff52cd75",
+                "reference": "ffb5e70adbc7cb1d4091ac0f8335b6fcff52cd75",
                 "shasum": ""
             },
             "require": {
@@ -283,7 +287,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2012-10-11 04:47:14"
+            "time": "2012-10-11T11:47:14+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -291,12 +295,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3.7.20"
+                "reference": "06d261333e37e4789d1800613e67c60005c23751"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3.7.20",
-                "reference": "3.7.20",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/06d261333e37e4789d1800613e67c60005c23751",
+                "reference": "06d261333e37e4789d1800613e67c60005c23751",
                 "shasum": ""
             },
             "require": {
@@ -310,7 +314,7 @@
                 "phpunit/php-text-template": ">=1.1.1",
                 "phpunit/php-timer": ">=1.0.2,<1.1.0",
                 "phpunit/phpunit-mock-objects": ">=1.2.0,<1.3.0",
-                "symfony/yaml": ">=2.0,<3.0"
+                "symfony/yaml": "~2.0"
             },
             "require-dev": {
                 "pear-pear/pear": "1.9.4"
@@ -357,20 +361,20 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2013-05-13 06:06:41"
+            "time": "2013-05-13T06:06:41+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
             "version": "1.2.3",
             "source": {
                 "type": "git",
-                "url": "git://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "1.2.3"
+                "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
+                "reference": "5794e3c5c5ba0fb037b11d8151add2a07fa82875"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sebastianbergmann/phpunit-mock-objects/archive/1.2.3.zip",
-                "reference": "1.2.3",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/5794e3c5c5ba0fb037b11d8151add2a07fa82875",
+                "reference": "5794e3c5c5ba0fb037b11d8151add2a07fa82875",
                 "shasum": ""
             },
             "require": {
@@ -406,7 +410,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2013-01-13 10:24:48"
+            "time": "2013-01-13T10:24:48+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -414,13 +418,13 @@
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Yaml.git",
-                "reference": "v2.2.1"
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "3f6d4ab3fd8226ab4ba0be9fc8a238f4338b79ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/v2.2.1",
-                "reference": "v2.2.1",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/3f6d4ab3fd8226ab4ba0be9fc8a238f4338b79ab",
+                "reference": "3f6d4ab3fd8226ab4ba0be9fc8a238f4338b79ab",
                 "shasum": ""
             },
             "require": {
@@ -443,30 +447,26 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2013-03-23 07:49:54"
+            "time": "2013-03-23T07:49:54+00:00"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "predis/predis": 20
-    },
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.3"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }
