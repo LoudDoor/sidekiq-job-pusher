@@ -1,9 +1,10 @@
 {
     "name": "musicglue/sidekiq-job-pusher",
     "description": "PHP client to interface with Sidekiq",
+	"version": "1.0.0",
     "require": {
         "php": ">=5.3.3",
-	"predis/predis": "^1.0"
+		"predis/predis": "^1.0"
     },
     "autoload": {
         "psr-0": {
